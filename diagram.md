@@ -35,7 +35,6 @@ This diagram should help you to get an overview how to build this project. Note 
       
       id15-->id16[Marriage of all mower parts];
       id10-->id18;
-      id5-->id17[One for the mower];
       id17-->id16;
       id18[Flash Mainboard]-->id16;
      
@@ -45,9 +44,6 @@ This diagram should help you to get an overview how to build this project. Note 
       
 
       id5-->id24[One for the RTK Base];
-      id6-->id25[One for the RTK Base];
-      id24-->id26[Assemble RTK Base];
-      id25-->id26[Assemble RTK Base];
       
       id9[Get all Parts from Github Mainboard PCB BOM]-->id8;
       id3-->id8[Solder Mainboard PCB];
